@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "myfirstapp",
-    "slug": "myfirstapp",
+    "slug": "react-native-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -25,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0e35c70c-f76f-4599-8638-e59dbe8d8053"
+      }
+    },
+    "owner": "yashikagarg05"
   }
 }
