@@ -20,4 +20,3 @@ jobs:
           expo-password: ${{ secrets.EXPO_CLI_PASSWORD }}
           expo-cache: true
       - run: yarn
-      - run: npx expo start
